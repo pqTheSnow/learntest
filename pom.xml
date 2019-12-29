@@ -18,7 +18,7 @@
 
     <properties>
         <hadoop-version>2.6.5</hadoop-version>
-        <hive-version>1.2.1</hive-version>
+        <hive-version>2.3.4</hive-version>
     </properties>
 
     <dependencies>

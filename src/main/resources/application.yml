@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+#配置这个配置项的原因：springboot集成hadoop等组件后会报这个错，FileNotFoundException，derbyLocale_cs.jar，StandardJarScanner.scan
+#https://blog.csdn.net/liuxiao723846/article/details/80657558
+tldSkipPatterns: derbyLocale_*.jar,jaxb-api.jar,jsr173_1.0_api.jar,jaxb1-impl.jar,activation.jar
+
+#spring.mvc.view.prefix=/WEB-INF/jsp/
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp

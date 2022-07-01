@@ -17,7 +17,7 @@
     </parent>
 
     <properties>
-        <hadoop-version>2.6.5</hadoop-version>
+        <hadoop-version>2.7.0</hadoop-version>
         <hive-version>1.2.1</hive-version>
     </properties>
 
